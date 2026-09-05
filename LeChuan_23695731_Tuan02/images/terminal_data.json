@@ -1,0 +1,287 @@
+[
+  {
+    "num": "01",
+    "lines": [
+      "-------------------- BÀI 01 --------------------",
+      "Result: Hello Async"
+    ]
+  },
+  {
+    "num": "02",
+    "lines": [
+      "-------------------- BÀI 02 --------------------",
+      "Resolved number: 10"
+    ]
+  },
+  {
+    "num": "03",
+    "lines": [
+      "-------------------- BÀI 03 --------------------",
+      "Caught expected error: Something went wrong"
+    ]
+  },
+  {
+    "num": "04",
+    "lines": [
+      "-------------------- BÀI 04 --------------------",
+      "[Success] Random number: 0.8063"
+    ]
+  },
+  {
+    "num": "05",
+    "lines": [
+      "-------------------- BÀI 05 --------------------",
+      "Task message: Task done"
+    ]
+  },
+  {
+    "num": "06",
+    "lines": [
+      "-------------------- BÀI 06 --------------------",
+      "Promise.all results: [",
+      "  'Task 1 (1000ms): Task done',",
+      "  'Task 2 (1500ms): Task done',",
+      "  'Task 3 (500ms): Task done'",
+      "]"
+    ]
+  },
+  {
+    "num": "07",
+    "lines": [
+      "-------------------- BÀI 07 --------------------",
+      "Fastest result (Promise.race): Task 2 completed (500ms - WINNER)"
+    ]
+  },
+  {
+    "num": "08",
+    "lines": [
+      "-------------------- BÀI 08 --------------------",
+      "Step 1 - Square of 2: 4",
+      "Step 2 - Double: 8",
+      "Step 3 - Add 5: 13",
+      "Final Chain Result: 13"
+    ]
+  },
+  {
+    "num": "09",
+    "lines": [
+      "-------------------- BÀI 09 --------------------",
+      "Filtered even numbers: [ 2, 4, 6, 8, 10 ]"
+    ]
+  },
+  {
+    "num": "10",
+    "lines": [
+      "-------------------- BÀI 10 --------------------",
+      "Task resolved with: Task done",
+      "Done"
+    ]
+  },
+  {
+    "num": "11",
+    "lines": [
+      "-------------------- BÀI 11 --------------------",
+      "Result using async/await: Hello Async"
+    ]
+  },
+  {
+    "num": "12",
+    "lines": [
+      "-------------------- BÀI 12 --------------------",
+      "Calling simulateTask(2000)...",
+      "Received result: Task done"
+    ]
+  },
+  {
+    "num": "13",
+    "lines": [
+      "-------------------- BÀI 13 --------------------",
+      "Attempting risky async operation...",
+      "Successfully handled error in catch block: Something went wrong"
+    ]
+  },
+  {
+    "num": "14",
+    "lines": [
+      "-------------------- BÀI 14 --------------------",
+      "Input: 5 -> After 1s (x3): 15"
+    ]
+  },
+  {
+    "num": "15",
+    "lines": [
+      "-------------------- BÀI 15 --------------------",
+      "Starting sequential async calls...",
+      "Step 1: 6 (after 1012ms)",
+      "Step 2: 18 (after 2024ms)",
+      "Step 3: 54 (after 3029ms)"
+    ]
+  },
+  {
+    "num": "16",
+    "lines": [
+      "-------------------- BÀI 16 --------------------",
+      "Starting parallel async calls...",
+      "Parallel results: [ 3, 6, 9 ]",
+      "Total execution time: 1004ms (~1 second)"
+    ]
+  },
+  {
+    "num": "17",
+    "lines": [
+      "-------------------- BÀI 17 --------------------",
+      "Iterating promises using for await...of:",
+      "- Received item: Item 1 (400ms)",
+      "- Received item: Item 2 (200ms)",
+      "- Received item: Item 3 (300ms)"
+    ]
+  },
+  {
+    "num": "18",
+    "lines": [
+      "-------------------- BÀI 18 --------------------",
+      "Fetching user 101...",
+      "Fetched User details: {",
+      "  id: 101,",
+      "  name: 'Student_101',",
+      "  email: 'student101@iuh.edu.vn',",
+      "  role: 'Undergraduate'",
+      "}"
+    ]
+  },
+  {
+    "num": "19",
+    "lines": [
+      "-------------------- BÀI 19 --------------------",
+      "Fetching multiple users for IDs: [1, 2, 3]...",
+      "Fetched all users successfully:",
+      " - [1] Student_1 (student1@iuh.edu.vn)",
+      " - [2] Student_2 (student2@iuh.edu.vn)",
+      " - [3] Student_3 (student3@iuh.edu.vn)"
+    ]
+  },
+  {
+    "num": "20",
+    "lines": [
+      "-------------------- BÀI 20 --------------------",
+      "Executing slow API call with 2000ms timeout threshold...",
+      "[Timeout Handled]: Operation timed out after 2000ms"
+    ]
+  },
+  {
+    "num": "21",
+    "lines": [
+      "-------------------- BÀI 21 --------------------",
+      "Fetching GET: https://jsonplaceholder.typicode.com/todos/1",
+      "Fetched Todo Item: { userId: 1, id: 1, title: 'delectus aut autem', completed: false }"
+    ]
+  },
+  {
+    "num": "22",
+    "lines": [
+      "-------------------- BÀI 22 --------------------",
+      "Calling API for multiple todos...",
+      "- Todo #1: \"delectus aut autem\" | Completed: false",
+      "- Todo #2: \"quis ut nam facilis et officia qui\" | Completed: false",
+      "- Todo #3: \"fugiat veniam minus\" | Completed: false"
+    ]
+  },
+  {
+    "num": "23",
+    "lines": [
+      "-------------------- BÀI 23 --------------------",
+      "Fetching todos from: https://jsonplaceholder.typicode.com/todos?_limit=8",
+      "Found 6 incompleted todos out of 8:",
+      "  * [#1] delectus aut autem",
+      "  * [#2] quis ut nam facilis et officia qui",
+      "  * [#3] fugiat veniam minus",
+      "  * [#5] laboriosam mollitia et enim quasi adipisci quia provident illum",
+      "  * [#6] qui ullam ratione quibusdam voluptatem quia omnis",
+      "  * [#7] illo expedita consequatur quia in"
+    ]
+  },
+  {
+    "num": "24",
+    "lines": [
+      "-------------------- BÀI 24 --------------------",
+      "Sending POST request to create new post...",
+      "Server response after creation: {",
+      "  title: 'Bai tap Thuc hanh TBDD - IUH',",
+      "  body: 'Thuc hanh gui du lieu POST len REST API voi TypeScript',",
+      "  userId: 23695731,",
+      "  id: 101",
+      "}"
+    ]
+  },
+  {
+    "num": "25",
+    "lines": [
+      "-------------------- BÀI 25 --------------------",
+      "[Start] Downloading file: \"Android_ReactNative_Guide.pdf\"...",
+      "[Done] Successfully downloaded \"Android_ReactNative_Guide.pdf\" (3 seconds)."
+    ]
+  },
+  {
+    "num": "26",
+    "lines": [
+      "-------------------- BÀI 26 --------------------",
+      "Starting 5-second delay...",
+      "Finished waiting. Total time elapsed: 5.01s"
+    ]
+  },
+  {
+    "num": "27",
+    "lines": [
+      "-------------------- BÀI 27 --------------------",
+      "Attempt 1/3: Fetching https://jsonplaceholder.typicode.com/invalid-endpoint-test-404...",
+      "  -> Attempt 1 failed: HTTP 404: Not Found",
+      "Attempt 2/3: Fetching https://jsonplaceholder.typicode.com/invalid-endpoint-test-404...",
+      "  -> Attempt 2 failed: HTTP 404: Not Found",
+      "Attempt 3/3: Fetching https://jsonplaceholder.typicode.com/invalid-endpoint-test-404...",
+      "  -> Attempt 3 failed: HTTP 404: Not Found",
+      "[Final Catch]: Failed to fetch after 3 attempts: HTTP 404: Not Found"
+    ]
+  },
+  {
+    "num": "28",
+    "lines": [
+      "-------------------- BÀI 28 --------------------",
+      "Processing batch of 5 asynchronous tasks...",
+      "Batch completed successfully: [",
+      "  'Batch task #1 done',",
+      "  'Batch task #2 done',",
+      "  'Batch task #3 done',",
+      "  'Batch task #4 done',",
+      "  'Batch task #5 done'",
+      "]"
+    ]
+  },
+  {
+    "num": "29",
+    "lines": [
+      "-------------------- BÀI 29 --------------------",
+      "Starting queue execution...",
+      "[Queue] Processing job 1/3...",
+      "[Queue] Job 1 completed: Task Alpha initialized",
+      "[Queue] Processing job 2/3...",
+      "[Queue] Job 2 completed: Task Beta synced",
+      "[Queue] Processing job 3/3...",
+      "[Queue] Job 3 completed: Task Gamma finalized",
+      "Queue execution finished with results: [",
+      "  'Task Alpha initialized',",
+      "  'Task Beta synced',",
+      "  'Task Gamma finalized'",
+      "]"
+    ]
+  },
+  {
+    "num": "30",
+    "lines": [
+      "-------------------- BÀI 30 --------------------",
+      "Checking API endpoints with Promise.allSettled()...",
+      "Endpoint #1 [https://jsonplaceholder.typicode.com/todos/1]: SUCCESS -> { userId: 1, id: 1, title: 'delectus aut autem', completed: false }",
+      "Endpoint #2 [https://jsonplaceholder.typicode.com/non-existing-404-endpoint]: FAILED -> HTTP 404 (Not Found)",
+      "Endpoint #3 [https://jsonplaceholder.typicode.com/todos/2]: SUCCESS -> { userId: 1, id: 2, title: 'quis ut nam facilis et officia qui', completed: false }"
+    ]
+  }
+]

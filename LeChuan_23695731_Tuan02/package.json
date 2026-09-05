@@ -1,0 +1,27 @@
+{
+  "name": "typescript-async-30-bai",
+  "version": "1.0.0",
+  "description": "30 bai tap TypeScript bat dong bo (Async/Await & Promise) - IUH TBDD",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "generate-doc": "ts-node scripts/generate_doc.ts"
+  },
+  "keywords": [
+    "typescript",
+    "async",
+    "await",
+    "promise"
+  ],
+  "author": "Le Chuan - 23695731",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^9.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
