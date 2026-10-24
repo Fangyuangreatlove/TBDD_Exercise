@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "LeChuan_23695731_Tuan06",
+    "slug": "lechuan-23695731-tuan06",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/phones/blue.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
